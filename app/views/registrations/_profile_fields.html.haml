@@ -1,0 +1,23 @@
+%h3 Your Profile
+.form-group
+  = f.label :name 
+  = f.text_field :name, class: 'form-control validate[required]'
+.form-group
+  = f.label :dob
+  = f.date_select :dob, class: 'form-control validate[required]'
+.form-group
+  = f.label :gender 
+  = f.select :gender,["Male","Female"], class: 'form-control validate[required]'
+.form-group
+  = f.label :contact_no
+  = f.text_field :contact_no, class: 'form-control validate[required]'
+.form-group
+  = f.label :profession 
+  = f.text_field :profession, class: 'form-control validate[required]'
+.form-group
+  .fileupload.fileupload-exists{"data-provides" => "fileupload"}
+    .fileupload-preview.fileupload-exists.thumbnail.pull-left{:style => "width:100px;height:100px;margin-right:10px;"}
+      =image_tag f.object.image
+    %span.btn.btn-file
+      = f.file_field :image
+    %a.close.fileupload-exists{"data-dismiss" => "fileupload", :href => "#", :style => "float: none"}

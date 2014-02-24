@@ -1,0 +1,508 @@
+# Logfile created on 2014-02-17 15:17:43 +0500 by logger.rb/44203
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Starting the New Relic agent in "development" environment.
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Reading configuration from config/newrelic.yml
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : New Relic Agent Developer Mode enabled.
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Enabling the Request Sampler.
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Environment: development
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Dispatcher: webrick
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Application: My Application
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] WARN : Agent configured not to send data in this environment.
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Installing ActiveRecord 4 instrumentation
+[02/17/14 15:17:43 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Installing Net instrumentation
+[02/17/14 15:17:44 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Installing deferred Rack instrumentation
+[02/17/14 15:17:44 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Installing Rails 4 view instrumentation
+[02/17/14 15:17:44 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Installing Rails 4 Controller instrumentation
+[02/17/14 15:17:44 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Installing Rails4 Error instrumentation
+[02/17/14 15:17:44 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Finished instrumentation
+[02/17/14 15:17:44 +0500 faizan-HP-EliteBook-8440p (6034)] INFO : Doing deferred dependency-detection before Rack startup
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Starting the New Relic agent in "development" environment.
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Reading configuration from config/newrelic.yml
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : New Relic Agent Developer Mode enabled.
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Enabling the Request Sampler.
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Environment: development
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : No known dispatcher detected.
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Application: My Application
+[02/17/14 18:14:40 +0500 faizan-HP-EliteBook-8440p (8213)] WARN : Agent configured not to send data in this environment.
+[02/17/14 18:14:41 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Installing ActiveRecord 4 instrumentation
+[02/17/14 18:14:41 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Installing Net instrumentation
+[02/17/14 18:14:41 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Installing deferred Rack instrumentation
+[02/17/14 18:14:41 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Installing Rails 4 view instrumentation
+[02/17/14 18:14:41 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Installing Rails 4 Controller instrumentation
+[02/17/14 18:14:41 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Installing Rails4 Error instrumentation
+[02/17/14 18:14:41 +0500 faizan-HP-EliteBook-8440p (8213)] INFO : Finished instrumentation
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Starting the New Relic agent in "development" environment.
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Reading configuration from config/newrelic.yml
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : New Relic Agent Developer Mode enabled.
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Enabling the Request Sampler.
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Environment: development
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Dispatcher: webrick
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Application: My Application
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] WARN : Agent configured not to send data in this environment.
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Installing ActiveRecord 4 instrumentation
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Installing Net instrumentation
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Installing deferred Rack instrumentation
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Installing Rails 4 view instrumentation
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Installing Rails 4 Controller instrumentation
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Installing Rails4 Error instrumentation
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Finished instrumentation
+[02/17/14 18:26:49 +0500 faizan-HP-EliteBook-8440p (8350)] INFO : Doing deferred dependency-detection before Rack startup
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Starting the New Relic agent in "development" environment.
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Reading configuration from config/newrelic.yml
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : New Relic Agent Developer Mode enabled.
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Enabling the Request Sampler.
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Environment: development
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : No known dispatcher detected.
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Application: My Application
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] WARN : Agent configured not to send data in this environment.
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Installing ActiveRecord 4 instrumentation
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Installing Net instrumentation
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Installing deferred Rack instrumentation
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Installing Rails 4 view instrumentation
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Installing Rails 4 Controller instrumentation
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Installing Rails4 Error instrumentation
+[02/17/14 19:49:07 +0500 faizan-HP-EliteBook-8440p (10045)] INFO : Finished instrumentation
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Starting the New Relic agent in "development" environment.
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Reading configuration from config/newrelic.yml
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : New Relic Agent Developer Mode enabled.
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Enabling the Request Sampler.
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Environment: development
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : No known dispatcher detected.
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Application: My Application
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] WARN : Agent configured not to send data in this environment.
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Installing ActiveRecord 4 instrumentation
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Installing Net instrumentation
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Installing deferred Rack instrumentation
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Installing Rails 4 view instrumentation
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Installing Rails 4 Controller instrumentation
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Installing Rails4 Error instrumentation
+[02/17/14 19:49:41 +0500 faizan-HP-EliteBook-8440p (10086)] INFO : Finished instrumentation
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Starting the New Relic agent in "development" environment.
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Reading configuration from config/newrelic.yml
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : New Relic Agent Developer Mode enabled.
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Enabling the Request Sampler.
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Environment: development
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : No known dispatcher detected.
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Application: My Application
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] WARN : Agent configured not to send data in this environment.
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Installing ActiveRecord 4 instrumentation
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Installing Net instrumentation
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Installing deferred Rack instrumentation
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Installing Rails 4 view instrumentation
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Installing Rails 4 Controller instrumentation
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Installing Rails4 Error instrumentation
+[02/17/14 19:50:10 +0500 faizan-HP-EliteBook-8440p (10100)] INFO : Finished instrumentation
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Starting the New Relic agent in "development" environment.
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Reading configuration from config/newrelic.yml
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : New Relic Agent Developer Mode enabled.
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Enabling the Request Sampler.
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Environment: development
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : No known dispatcher detected.
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Application: My Application
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] WARN : Agent configured not to send data in this environment.
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Installing ActiveRecord 4 instrumentation
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Installing Net instrumentation
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Installing deferred Rack instrumentation
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Installing Rails 4 view instrumentation
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Installing Rails 4 Controller instrumentation
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Installing Rails4 Error instrumentation
+[02/17/14 19:51:55 +0500 faizan-HP-EliteBook-8440p (10184)] INFO : Finished instrumentation
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Reading configuration from config/newrelic.yml
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : New Relic Agent Developer Mode enabled.
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Enabling the Request Sampler.
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Environment: development
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Dispatcher: webrick
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Application: My Application
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : Agent configured not to send data in this environment.
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Installing Net instrumentation
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Installing deferred Rack instrumentation
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Installing Rails 4 view instrumentation
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Installing Rails4 Error instrumentation
+[02/18/14 14:57:18 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Finished instrumentation
+[02/18/14 14:57:19 +0500 faizan-HP-EliteBook-8440p (4065)] INFO : Doing deferred dependency-detection before Rack startup
+[02/18/14 16:22:07 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `sfds' for #<FilmsController:0x007fa550ff0b20>
+[02/18/14 16:27:11 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `sfds' for #<FilmsController:0x007fa55512c080>
+[02/18/14 16:31:14 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `sfds' for #<FilmsController:0x007fa552b0ea10>
+[02/18/14 16:32:25 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `sfds' for #<FilmsController:0x007fa551fde078>
+[02/18/14 16:33:32 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `sfds' for #<FilmsController:0x000000048a9608>
+[02/18/14 16:35:03 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `sfds' for #<FilmsController:0x007fa551a4f878>
+[02/18/14 16:40:29 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `sfds' for #<FilmsController:0x007fa5517230a0>
+[02/18/14 17:40:35 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `dasfhakls' for #<FilmsController:0x007fa554f5b620>
+[02/18/14 17:41:54 +0500 faizan-HP-EliteBook-8440p (4065)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `sfds' for #<FilmsController:0x007fa554e91c58>
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Reading configuration from config/newrelic.yml
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : New Relic Agent Developer Mode enabled.
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Enabling the Request Sampler.
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Environment: development
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Dispatcher: webrick
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Application: My Application
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] WARN : Agent configured not to send data in this environment.
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Installing Net instrumentation
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Installing deferred Rack instrumentation
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Installing Rails 4 view instrumentation
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Installing Rails4 Error instrumentation
+[02/18/14 17:42:57 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Finished instrumentation
+[02/18/14 17:42:58 +0500 faizan-HP-EliteBook-8440p (9707)] INFO : Doing deferred dependency-detection before Rack startup
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Reading configuration from config/newrelic.yml
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : New Relic Agent Developer Mode enabled.
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Enabling the Request Sampler.
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Environment: development
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Dispatcher: webrick
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Application: My Application
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] WARN : Agent configured not to send data in this environment.
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Installing Net instrumentation
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Installing deferred Rack instrumentation
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Installing Rails 4 view instrumentation
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Installing Rails4 Error instrumentation
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Finished instrumentation
+[02/18/14 17:53:40 +0500 faizan-HP-EliteBook-8440p (9966)] INFO : Doing deferred dependency-detection before Rack startup
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Reading configuration from config/newrelic.yml
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : New Relic Agent Developer Mode enabled.
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Enabling the Request Sampler.
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Environment: development
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Dispatcher: webrick
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Application: My Application
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] WARN : Agent configured not to send data in this environment.
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Installing Net instrumentation
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Installing deferred Rack instrumentation
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Installing Rails 4 view instrumentation
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Installing Rails4 Error instrumentation
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Finished instrumentation
+[02/18/14 18:17:43 +0500 faizan-HP-EliteBook-8440p (10545)] INFO : Doing deferred dependency-detection before Rack startup
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Reading configuration from config/newrelic.yml
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : New Relic Agent Developer Mode enabled.
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Enabling the Request Sampler.
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Environment: development
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Dispatcher: webrick
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Application: My Application
+[02/18/14 18:49:23 +0500 faizan-HP-EliteBook-8440p (11305)] WARN : Agent configured not to send data in this environment.
+[02/18/14 18:49:24 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/14 18:49:24 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Installing Net instrumentation
+[02/18/14 18:49:24 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Installing deferred Rack instrumentation
+[02/18/14 18:49:24 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Installing Rails 4 view instrumentation
+[02/18/14 18:49:24 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/14 18:49:24 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Installing Rails4 Error instrumentation
+[02/18/14 18:49:24 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Finished instrumentation
+[02/18/14 18:49:24 +0500 faizan-HP-EliteBook-8440p (11305)] INFO : Doing deferred dependency-detection before Rack startup
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Reading configuration from config/newrelic.yml
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : New Relic Agent Developer Mode enabled.
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Enabling the Request Sampler.
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Environment: development
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Dispatcher: webrick
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Application: My Application
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] WARN : Agent configured not to send data in this environment.
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Installing Net instrumentation
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Installing deferred Rack instrumentation
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Installing Rails 4 view instrumentation
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Installing Rails4 Error instrumentation
+[02/18/14 18:57:57 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Finished instrumentation
+[02/18/14 18:57:58 +0500 faizan-HP-EliteBook-8440p (11402)] INFO : Doing deferred dependency-detection before Rack startup
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Reading configuration from config/newrelic.yml
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : New Relic Agent Developer Mode enabled.
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Enabling the Request Sampler.
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Environment: development
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Dispatcher: webrick
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Application: My Application
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] WARN : Agent configured not to send data in this environment.
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Installing Net instrumentation
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Installing deferred Rack instrumentation
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Installing Rails 4 view instrumentation
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Installing Rails4 Error instrumentation
+[02/18/14 19:53:34 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Finished instrumentation
+[02/18/14 19:53:35 +0500 faizan-HP-EliteBook-8440p (11937)] INFO : Doing deferred dependency-detection before Rack startup
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Starting the New Relic agent in "development" environment.
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Reading configuration from config/newrelic.yml
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : New Relic Agent Developer Mode enabled.
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Enabling the Request Sampler.
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Environment: development
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Dispatcher: webrick
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Application: My Application
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] WARN : Agent configured not to send data in this environment.
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Installing ActiveRecord 4 instrumentation
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Installing Net instrumentation
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Installing deferred Rack instrumentation
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Installing Rails 4 view instrumentation
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Installing Rails 4 Controller instrumentation
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Installing Rails4 Error instrumentation
+[02/18/14 23:30:59 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Finished instrumentation
+[02/18/14 23:31:05 +0500 faizan-HP-EliteBook-8440p (18999)] INFO : Doing deferred dependency-detection before Rack startup
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Reading configuration from config/newrelic.yml
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : New Relic Agent Developer Mode enabled.
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Enabling the Request Sampler.
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Environment: development
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Dispatcher: webrick
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Application: My Application
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] WARN : Agent configured not to send data in this environment.
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Installing Net instrumentation
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Installing deferred Rack instrumentation
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Installing Rails 4 view instrumentation
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Installing Rails4 Error instrumentation
+[02/19/14 16:02:25 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Finished instrumentation
+[02/19/14 16:02:26 +0500 faizan-HP-EliteBook-8440p (12476)] INFO : Doing deferred dependency-detection before Rack startup
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Reading configuration from config/newrelic.yml
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : New Relic Agent Developer Mode enabled.
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Enabling the Request Sampler.
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Environment: development
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Dispatcher: webrick
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Application: My Application
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] WARN : Agent configured not to send data in this environment.
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Installing Net instrumentation
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Installing deferred Rack instrumentation
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Installing Rails 4 view instrumentation
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Installing Rails4 Error instrumentation
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Finished instrumentation
+[02/19/14 18:00:13 +0500 faizan-HP-EliteBook-8440p (16803)] INFO : Doing deferred dependency-detection before Rack startup
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Reading configuration from config/newrelic.yml
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : New Relic Agent Developer Mode enabled.
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Enabling the Request Sampler.
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Environment: development
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Dispatcher: webrick
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Application: My Application
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] WARN : Agent configured not to send data in this environment.
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Installing Net instrumentation
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Installing deferred Rack instrumentation
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Installing Rails 4 view instrumentation
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Installing Rails4 Error instrumentation
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Finished instrumentation
+[02/19/14 18:03:48 +0500 faizan-HP-EliteBook-8440p (16976)] INFO : Doing deferred dependency-detection before Rack startup
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Reading configuration from config/newrelic.yml
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : New Relic Agent Developer Mode enabled.
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Enabling the Request Sampler.
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Environment: development
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Dispatcher: webrick
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Application: My Application
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] WARN : Agent configured not to send data in this environment.
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Installing Net instrumentation
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Installing deferred Rack instrumentation
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Installing Rails 4 view instrumentation
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Installing Rails4 Error instrumentation
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Finished instrumentation
+[02/19/14 18:21:12 +0500 faizan-HP-EliteBook-8440p (17793)] INFO : Doing deferred dependency-detection before Rack startup
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Reading configuration from config/newrelic.yml
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : New Relic Agent Developer Mode enabled.
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Enabling the Request Sampler.
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Environment: development
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Dispatcher: webrick
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Application: My Application
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] WARN : Agent configured not to send data in this environment.
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Installing Net instrumentation
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Installing deferred Rack instrumentation
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Installing Rails 4 view instrumentation
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Installing Rails4 Error instrumentation
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Finished instrumentation
+[02/19/14 18:26:26 +0500 faizan-HP-EliteBook-8440p (17936)] INFO : Doing deferred dependency-detection before Rack startup
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Reading configuration from config/newrelic.yml
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : New Relic Agent Developer Mode enabled.
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Enabling the Request Sampler.
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Environment: development
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Dispatcher: webrick
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Application: My Application
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] WARN : Agent configured not to send data in this environment.
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Installing Net instrumentation
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Installing deferred Rack instrumentation
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Installing Rails 4 view instrumentation
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Installing Rails4 Error instrumentation
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Finished instrumentation
+[02/19/14 18:31:05 +0500 faizan-HP-EliteBook-8440p (18042)] INFO : Doing deferred dependency-detection before Rack startup
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Starting the New Relic agent in "development" environment.
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Reading configuration from config/newrelic.yml
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : New Relic Agent Developer Mode enabled.
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Enabling the Request Sampler.
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Environment: development
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Dispatcher: webrick
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Application: My Application
+[02/19/14 22:08:11 +0500 faizan-HP-EliteBook-8440p (21644)] WARN : Agent configured not to send data in this environment.
+[02/19/14 22:08:12 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Installing ActiveRecord 4 instrumentation
+[02/19/14 22:08:12 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Installing Net instrumentation
+[02/19/14 22:08:12 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Installing deferred Rack instrumentation
+[02/19/14 22:08:12 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Installing Rails 4 view instrumentation
+[02/19/14 22:08:12 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Installing Rails 4 Controller instrumentation
+[02/19/14 22:08:12 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Installing Rails4 Error instrumentation
+[02/19/14 22:08:12 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Finished instrumentation
+[02/19/14 22:08:13 +0500 faizan-HP-EliteBook-8440p (21644)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Reading configuration from config/newrelic.yml
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : New Relic Agent Developer Mode enabled.
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Enabling the Request Sampler.
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Environment: development
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Dispatcher: webrick
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Application: My Application
+[02/20/14 17:42:24 +0500 faizan-HP-EliteBook-8440p (10402)] WARN : Agent configured not to send data in this environment.
+[02/20/14 17:42:25 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Installing ActiveRecord 4 instrumentation
+[02/20/14 17:42:25 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Installing Net instrumentation
+[02/20/14 17:42:25 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Installing deferred Rack instrumentation
+[02/20/14 17:42:25 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Installing Rails 4 view instrumentation
+[02/20/14 17:42:25 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Installing Rails 4 Controller instrumentation
+[02/20/14 17:42:25 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Installing Rails4 Error instrumentation
+[02/20/14 17:42:25 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Finished instrumentation
+[02/20/14 17:42:26 +0500 faizan-HP-EliteBook-8440p (10402)] INFO : Doing deferred dependency-detection before Rack startup
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Starting the New Relic agent in "development" environment.
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Reading configuration from config/newrelic.yml
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : New Relic Agent Developer Mode enabled.
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Enabling the Request Sampler.
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Environment: development
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : No known dispatcher detected.
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Application: My Application
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] WARN : Agent configured not to send data in this environment.
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Installing ActiveRecord 4 instrumentation
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Installing Net instrumentation
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Installing deferred Rack instrumentation
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Installing Rails 4 view instrumentation
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Installing Rails 4 Controller instrumentation
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Installing Rails4 Error instrumentation
+[02/24/14 13:13:59 +0500 faizan-HP-EliteBook-8440p (5013)] INFO : Finished instrumentation
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Starting the New Relic agent in "development" environment.
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Reading configuration from config/newrelic.yml
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : New Relic Agent Developer Mode enabled.
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Enabling the Request Sampler.
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Environment: development
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : No known dispatcher detected.
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Application: My Application
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] WARN : Agent configured not to send data in this environment.
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Installing ActiveRecord 4 instrumentation
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Installing Net instrumentation
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Installing deferred Rack instrumentation
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Installing Rails 4 view instrumentation
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Installing Rails 4 Controller instrumentation
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Installing Rails4 Error instrumentation
+[02/24/14 13:14:30 +0500 faizan-HP-EliteBook-8440p (5036)] INFO : Finished instrumentation
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Starting the New Relic agent in "development" environment.
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Reading configuration from config/newrelic.yml
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : New Relic Agent Developer Mode enabled.
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Enabling the Request Sampler.
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Environment: development
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : No known dispatcher detected.
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Application: My Application
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] WARN : Agent configured not to send data in this environment.
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Installing ActiveRecord 4 instrumentation
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Installing Net instrumentation
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Installing deferred Rack instrumentation
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Installing Rails 4 view instrumentation
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Installing Rails 4 Controller instrumentation
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Installing Rails4 Error instrumentation
+[02/24/14 13:22:41 +0500 faizan-HP-EliteBook-8440p (5190)] INFO : Finished instrumentation
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Starting the New Relic agent in "development" environment.
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Reading configuration from config/newrelic.yml
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : New Relic Agent Developer Mode enabled.
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Enabling the Request Sampler.
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Environment: development
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : No known dispatcher detected.
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Application: My Application
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] WARN : Agent configured not to send data in this environment.
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Installing ActiveRecord 4 instrumentation
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Installing Net instrumentation
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Installing deferred Rack instrumentation
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Installing Rails 4 view instrumentation
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Installing Rails 4 Controller instrumentation
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Installing Rails4 Error instrumentation
+[02/24/14 13:53:18 +0500 faizan-HP-EliteBook-8440p (5600)] INFO : Finished instrumentation
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Starting the New Relic agent in "development" environment.
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Reading configuration from config/newrelic.yml
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : New Relic Agent Developer Mode enabled.
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Enabling the Request Sampler.
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Environment: development
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : No known dispatcher detected.
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Application: My Application
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] WARN : Agent configured not to send data in this environment.
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Installing ActiveRecord 4 instrumentation
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Installing Net instrumentation
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Installing deferred Rack instrumentation
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Installing Rails 4 view instrumentation
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Installing Rails 4 Controller instrumentation
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Installing Rails4 Error instrumentation
+[02/24/14 13:53:37 +0500 faizan-HP-EliteBook-8440p (5607)] INFO : Finished instrumentation
+[02/24/14 13:58:10 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Starting the New Relic agent in "development" environment.
+[02/24/14 13:58:10 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/24/14 13:58:10 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Reading configuration from config/newrelic.yml
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : New Relic Agent Developer Mode enabled.
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Enabling the Request Sampler.
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Environment: development
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : No known dispatcher detected.
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Application: My Application
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] WARN : Agent configured not to send data in this environment.
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Installing ActiveRecord 4 instrumentation
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Installing Net instrumentation
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Installing deferred Rack instrumentation
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Installing Rails 4 view instrumentation
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Installing Rails 4 Controller instrumentation
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Installing Rails4 Error instrumentation
+[02/24/14 13:58:11 +0500 faizan-HP-EliteBook-8440p (5653)] INFO : Finished instrumentation
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Starting the New Relic agent in "development" environment.
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Reading configuration from config/newrelic.yml
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : New Relic Agent Developer Mode enabled.
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Enabling the Request Sampler.
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Environment: development
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : No known dispatcher detected.
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Application: My Application
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] WARN : Agent configured not to send data in this environment.
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Installing ActiveRecord 4 instrumentation
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Installing Net instrumentation
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Installing deferred Rack instrumentation
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Installing Rails 4 view instrumentation
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Installing Rails 4 Controller instrumentation
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Installing Rails4 Error instrumentation
+[02/24/14 13:58:26 +0500 faizan-HP-EliteBook-8440p (5660)] INFO : Finished instrumentation

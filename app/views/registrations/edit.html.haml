@@ -1,0 +1,10 @@
+%h2 Edit Profile
+.authform
+  = simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :haml => { :method => :put}) do |f| 
+    %h3 Edit Your profile
+    .form-group
+      %i (we need your current password to confirm your changes)
+      = f.password_field :current_password, class: 'form-control validate[required]'
+      = f.fields_for :profile do |profile_form|
+        = render 'profile_fields', :f => profile_form
+    = f.submit 'Submit', :class => 'button right'

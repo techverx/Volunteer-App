@@ -1,0 +1,20 @@
+%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js", :type => "text/\njavascript"}
+= javascript_include_tag "jquery.validationEngine"
+= javascript_include_tag "jquery.validationEngine-en"
+= stylesheet_link_tag "validationEngine.jquery"
+.authform
+  = simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :haml => { :role => 'form'}) do |f| 
+    %h3 Sign up Form
+    = devise_error_messages! 
+    .form-group
+      = f.label :email 
+      = f.email_field :email, class: 'form-control validate[required]' 
+    .form-group
+      = f.label :password 
+      = f.password_field :password, class: 'form-control validate[required]'
+    .form-group
+      = f.label :password_confirmation
+      = f.password_field :password_confirmation, class: 'form-control validate[required]'
+      = f.fields_for :profile do |profile_form|
+        = render 'profile_fields', :f => profile_form
+    = f.submit 'Sign up', :class => 'button right' 

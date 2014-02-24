@@ -1,0 +1,33 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @company.name
+%p
+  %b Address:
+  = @company.address
+%p
+  %b Logo:
+  = @company.logo
+%p
+  %b Website:
+  = @company.website
+%p
+  %b Facebook page:
+  = @company.facebook_page
+%p
+  %b Linkedin:
+  = @company.linkedin
+%p
+  %b Description:
+  = @company.description
+%p
+  %b User:
+  = @company.user
+%p
+  %b Country:
+  = @company.country
+
+= link_to 'Edit', edit_company_path(@company)
+\|
+= link_to 'Back', companies_path

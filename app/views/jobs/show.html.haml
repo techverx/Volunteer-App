@@ -1,0 +1,30 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @job.title
+%p
+  %b Vacancies:
+  = @job.vacancies
+%p
+  %b Wage per hour:
+  = @job.wage_per_hour
+%p
+  %b Description:
+  = @job.description
+%p
+  %b Time from:
+  = @job.time_from
+%p
+  %b Time to:
+  = @job.time_to
+%p
+  %b Company:
+  = @job.company
+%p
+  %b Publish:
+  = @job.publish
+
+= link_to 'Edit', edit_job_path(@job)
+\|
+= link_to 'Back', jobs_path
