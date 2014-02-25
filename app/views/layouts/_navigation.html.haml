@@ -14,9 +14,17 @@
         .navbar-inner
           %br 
           %ul.nav.nav-pills
-            - Category.all.each do |cat|
-              %li= link_to cat.name,category_path(cat)
-            %li= link_to "Submit",new_film_path
+            %li
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                %i.icon-lightbulb
+                Create
+                %span.selected
+                %span.arrow
+              %ul.dropdown-menu
+                %li
+                  = link_to "Volunteer Profile", volunteer_sign_up_path
+                %li
+                  = link_to "Company Profile", company_sign_up_path
             %ul.nav.pull-right
               - if signed_in?
                 %li.dropdown.user
@@ -33,7 +41,6 @@
               - else  
                 %button.btn.btn-primary{"data-target" => "#myModal", "data-toggle" => "modal"}
                   Sign In 
-                = link_to "Create Profile", new_user_registration_path, :class => "button btn btn-primary"  
 #myModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", role: "dialog", tabindex: "-1"}
   .modal-dialog
     .modal-content

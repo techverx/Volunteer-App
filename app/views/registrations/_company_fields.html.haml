@@ -1,0 +1,26 @@
+%h3 Your Company Profile
+.form-group
+  = f.label :name 
+  = f.text_field :name, class: 'form-control validate[required]'
+.form-group
+  = f.label :address
+  = f.text_field :address, class: 'form-control validate[required]'
+.form-group
+  = f.label :website 
+  = f.text_field :website, class: 'form-control validate[required]'
+.form-group
+  = f.label :facebook_page 
+  = f.text_field :facebook_page, class: 'form-control validate[required]'
+.form-group
+  = f.label :linkedin 
+  = f.text_field :linkedin, class: 'form-control validate[required]'
+.form-group
+  = f.label :description 
+  = f.text_field :description, class: 'form-control validate[required]'
+.form-group
+  .fileupload.fileupload-exists{"data-provides" => "fileupload"}
+    .fileupload-preview.fileupload-exists.thumbnail.pull-left{:style => "width:100px;height:100px;margin-right:10px;"}
+      =image_tag f.object.logo
+    %span.btn.btn-file
+      = f.file_field :logo
+    %a.close.fileupload-exists{"data-dismiss" => "fileupload", :href => "#", :style => "float: none"}

@@ -1,13 +1,27 @@
 class RegistrationsController < Devise::RegistrationsController
 
   def new
-    build_resource({})
-    resource.build_profile
-    respond_with self.resource
+
   end
+
+  def new_volunteer
+    resource = build_resource({})
+    resource.build_profile
+    respond_with resource do |format|
+      format.html {render :new}
+    end
+  end
+
+  def new_company
+    resource = build_resource({})
+    resource.build_company
+    respond_with resource do |format|
+      format.html {render :new}
+    end
+  end
+
   def create
-    params.inspect
-    build_resource(params.require(resource_name).permit( :email, :password, :password_confirmation, profile_attributes:  [:name,:dob,:contact_no,:gender,:profession,:image] ))
+    build_resource
     if resource.save
       if resource.active_for_authentication?
         set_flash_message :notice, :signed_up if is_navigational_format?
@@ -49,8 +63,18 @@ class RegistrationsController < Devise::RegistrationsController
     end
   end
   def check_image
-      params[:user][:profile_attributes][:image] = nil if params[:user][:profile_attributes][:image].blank?
-      #      resource.profile.avatar = URI.parse(params[:avatar_url])
-      resource.profile.image.build(:image_by => params[:image_from], :url => params[:avatar_url] , :thumb => params[:avatar_url], :discover_investors => params[:avatar_url]) if resource.profile and !params[:avatar_url].blank?
+    params[:user][:profile_attributes][:image] = nil if params[:user][:profile_attributes][:image].blank?
+    #      resource.profile.avatar = URI.parse(params[:avatar_url])
+    resource.profile.image.build(:image_by => params[:image_from], :url => params[:avatar_url] , :thumb => params[:avatar_url], :discover_investors => params[:avatar_url]) if resource.profile and !params[:avatar_url].blank?
+  end
+  def sign_up_params
+    params.require(:user).permit( :email, :password, :password_confirmation, :profile_attributes => [:name,:dob,:contact_no,:gender,:profession,:image] )
+  end
+  def build_resource(hash=nil)
+    hash ||= resource_params || {}
+    self.resource = resource_class.new_with_session(hash, session)
+  end
+  def resource_params
+    params.require(:user).permit( :email, :password, :password_confirmation, :profile_attributes => [:name,:dob,:contact_no,:gender,:profession,:image],:company_attributes => [:name,:address,:logo,:website,:facebook_page,:linkedin,:description] )
   end
 end

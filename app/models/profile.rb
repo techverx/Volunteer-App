@@ -1,5 +1,5 @@
 class Profile < ActiveRecord::Base
    belongs_to :user 
-   has_and_belongs_to_many
+   has_and_belongs_to_many :jobs
    mount_uploader :image, ImageUploader
 end

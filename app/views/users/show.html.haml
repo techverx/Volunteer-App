@@ -1,7 +1,9 @@
 %h3 User
 %p
-  User: #{@user.name}
-  - if current_user.profile.image  
+  User: #{current_user.profile? ? current_user.profile.name : current_user.company.name}
+  - if current_user.profile and current_user.profile.image  
     = image_tag current_user.profile.image
+  - else
+    = image_tag current_user.company.logo
 %p
   Email: #{@user.email if @user.email}
